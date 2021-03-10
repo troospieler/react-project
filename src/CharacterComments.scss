@@ -1,0 +1,20 @@
+.comments {
+
+  &__Header {
+    margin-bottom: 20px;
+  }
+
+  &__List {
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0 10px;
+  }
+
+  &__Comment {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    text-decoration: underline;
+    word-break: break-word;
+  }
+}
